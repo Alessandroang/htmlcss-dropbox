@@ -3,3 +3,42 @@
   margin: 0;
   padding: 0;
 }
+
+.flex {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.fixed {
+  position: fixed;
+  width: 100%;
+}
+
+/* header */
+
+.header {
+  background-color: white;
+}
+
+.header-container {
+  background-color: white;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+}
+.container-header-1 {
+  justify-content: space-between;
+}
+
+.container-header-2 {
+  justify-content: space-between;
+}
