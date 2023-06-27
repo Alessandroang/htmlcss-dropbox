@@ -49,6 +49,15 @@
   text-align: center;
 }
 
+.container-header-3 p {
+  margin-bottom: 20px;
+}
+
+.container-header-3 input.button-blue {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
 a {
   color: black;
   padding: 10px;
@@ -69,4 +78,9 @@ a {
 h1 {
   text-align: center;
   font-size: 100px;
+}
+
+.fa-solid {
+  padding: 110px;
+  font-size: 45px;
 }
