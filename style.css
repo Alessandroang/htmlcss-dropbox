@@ -44,8 +44,9 @@
 }
 
 .container-header-3 {
-  max-width: 1000px;
-  padding-top: 10px;
+  background-color: #5f9dffad;
+  padding-top: 45px;
+  text-align: center;
 }
 
 a {
@@ -58,9 +59,14 @@ a {
   background-color: rgb(35, 104, 206);
   color: white;
   border: none;
-  padding: 4px 14px;
+  padding: 8px 14px;
 }
 
 .img {
   width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 100px;
 }
