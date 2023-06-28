@@ -68,7 +68,7 @@ a {
   background-color: rgb(35, 104, 206);
   color: white;
   border: none;
-  padding: 8px 14px;
+  padding: 8px 40px;
 }
 
 .img {
@@ -77,10 +77,104 @@ a {
 
 h1 {
   text-align: center;
-  font-size: 100px;
+  font-size: 90px;
 }
 
-.fa-solid {
+.title-2 {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* .fa-solid {
   padding: 110px;
   font-size: 45px;
+} */
+
+/* container */
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.container-lg {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.plan {
+  padding: 120px 0 70px 0;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border: 2px solid gray;
+  border-radius: 50%;
+  display: block;
+}
+
+.radio-input {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  gap: 8px;
+}
+
+.card {
+  border: 1px solid black;
+  margin-top: 20px;
+  height: 100%;
+}
+
+.cards-wrapper {
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.col-100 {
+  width: 100%;
+}
+
+.cards-wrapper .col {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.card-header {
+  padding: 12px 0;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.card-content {
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.feature {
+  display: flex;
+  gap: 8px;
+  font-size: 12px;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+h4 {
+  margin-bottom: 15px;
 }
