@@ -178,3 +178,7 @@ li {
 h4 {
   margin-bottom: 15px;
 }
+
+a.acquista {
+  color: blue;
+}
