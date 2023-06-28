@@ -164,6 +164,11 @@ h1 {
   gap: 45px;
 }
 
+.card-under .row {
+  text-align: center;
+  justify-content: space-between;
+}
+
 .feature {
   display: flex;
   gap: 8px;
